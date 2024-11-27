@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag Racing - You Are Your Own Enemy</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+    canvas {
+      display: block;
+      background: linear-gradient(to bottom, #119, #444);
+    }
+    #gameInfo {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <div id="gameInfo">
+    <p>Press <b>Space</b> to Start. Use <b>Arrow Keys</b> to move.</p>
+    <p>Avoid obstacles and beat your ghost!</p>
+  </div>
+  <canvas id="gameCanvas"></canvas>
+  <script src="main.js"></script>
+</body>
+</html>
